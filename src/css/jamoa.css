@@ -1,0 +1,21 @@
+.jamoa__list {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+.jamoa__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+.jamoa__text {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: start;
+}
+.jamoa__btn {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
