@@ -19,23 +19,22 @@ function Footer() {
           <Link to="/portfoilo">Portfolio</Link>
           <Link to="/jamo">Jamoa</Link>
           <Link to="/blog">Blog</Link>
-        <Link to="/kontaklar">Kontaktlar</Link>
-
+          <Link to="/kontaklar">Kontaktlar</Link>
         </nav>
       </div>
       <nav className="footer__list">
         <h4>Biz internetda</h4>
         <ul className="footer__nav-list">
           <li>
-            <img src="/public/icon/telegram.svg" alt="Telegram" />
+            <img src="/icon/telegram.svg" alt="Telegram" />
             <a href="#">Telegram</a>
           </li>
           <li>
-            <img src="/public/icon/facebook.svg" alt="Facebook" />
+            <img src="/icon/facebook.svg" alt="Facebook" />
             <a href="#">Facebook</a>
           </li>
           <li>
-            <img src="/public/icon//instagram.svg" alt="Instagram" />
+            <img src="/icon//instagram.svg" alt="Instagram" />
             <a href="#">Instagram</a>
           </li>
         </ul>
