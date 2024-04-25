@@ -4,7 +4,7 @@ function Novbar() {
   return (
     <header>
       <a href="">
-        <img className="header__img" src="/public/logo-svg.svg" alt="Pixer" />
+        <img className="header__img" src="/logo-svg.svg" alt="Pixer" />
       </a>
       <nav className="header__nav">
         <Link to="/">Bosh sahifa</Link>
