@@ -12,6 +12,7 @@ header {
 .header__nav {
   display: flex;
   gap: 3rem;
+
   a {
     color: black;
     font-size: 1.6rem;
@@ -21,17 +22,16 @@ header {
       opacity: 1;
     }
   }
+  a:last-child {
+    color: aliceblue;
+    padding: 1rem 2rem 1rem 2rem;
+    margin-bottom: 5rem;
+    &:hover {
+      color: #00bafc;
+    }
+  }
 }
-.header__btn,
-button {
-  background-color: #00bafc;
-  border: none;
-  padding: 1rem 2rem 1rem 2rem;
-  border-radius: 0.8rem;
-  font-weight: 700;
-  color: white;
-  cursor: pointer;
-}
+
 .header__img {
   position: absolute;
   top: 4rem;

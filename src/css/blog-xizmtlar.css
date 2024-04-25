@@ -68,9 +68,10 @@ iframe {
   align-items: center;
   justify-content: center;
   margin-top: 2rem;
-  a {
+  /* a {
     color: #00bafc;
-  }
+  } */
 }
-.jamoa {
+.btn__bag {
+  color: aliceblue;
 }

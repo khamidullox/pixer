@@ -1,5 +1,6 @@
 import React from "react";
-import "../css/blog.css";
+import "../css/blog-xizmtlar.css";
+import { Link } from "react-router-dom";
 function Blog() {
   return (
     <section className="blog">
@@ -12,7 +13,7 @@ function Blog() {
           veniam animi omnis numquam temporibus ab pariatur voluptate odio
           impedit molestias fuga commodi corporis mollitia reprehenderit
         </p>
-        <button>Xizmatlar bilan tanishish</button>
+        <Link to="/kontaklar" className="btn">Xizmatlar bilan tanishish</Link>
       </div>
       <iframe
         width="560"

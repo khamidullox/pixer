@@ -27,6 +27,7 @@ let data = [
     description: "lorem impus",
   },
 ];
+import "../css/blog-xizmtlar.css";
 function Xizmatlar() {
   return (
     <section className="xizmatlar">
@@ -38,8 +39,10 @@ function Xizmatlar() {
       </p>
       <XizmatlarMap map={data} />
       <div className="xizmatlar__btn">
-        <button className="btn">Buyurtma berish</button>
-        <Link to="/Xizmatlar">Xizmatlar sahifasiga o’tish</Link>
+        <Link to="/kontaklar" className="btn btn__bag">
+          Buyurtma berish
+        </Link>
+        <Link to="/kontaklar">Xizmatlar sahifasiga o’tish</Link>
       </div>
       <br />
     </section>

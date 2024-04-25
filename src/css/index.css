@@ -44,8 +44,21 @@ a {
   padding-left: 1rem;
   padding-right: 1rem;
 }
-button:hover {
+.btn:hover {
   background-color: aliceblue;
   color: #00bafc;
   border: 1px solid #00bafc;
+}
+.header__btn,
+.btn {
+  background-color: #00bafc;
+  border: none;
+  padding: 1rem 2rem 1rem 2rem;
+  border-radius: 0.8rem;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+}
+.btn__bag {
+  color: aliceblue;
 }

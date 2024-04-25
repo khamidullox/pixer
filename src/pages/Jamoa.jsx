@@ -1,6 +1,6 @@
 import JamoaMap from "../components/JamoaMap";
-import "../css/blog.css";
-import "../css/jamoa.css";
+import "../css/blog-xizmtlar.css";
+import "../css/jamoa-kontaklar.css";
 function Jamoa() {
   return (
     <section className="jamoa xizmatlar">
