@@ -1,33 +1,34 @@
 import XizmatlarMap from "../components/XizmatlarMap";
 import { Link } from "react-router-dom";
+import "../css/blog-xizmtlar.css";
 let data = [
   {
     name: "Vebsayt tuzish",
-    img: "../public/xizmatlar/website-illustration.png",
+    img: "./xizmatlar/website-illustration.png",
     description: "lorem impus",
   },
   {
     name: "Telegram bot",
-    img: "../public/xizmatlar/bot-illustration.png",
+    img: "./xizmatlar/bot-illustration.png",
     description: "lorem impus",
   },
   {
     name: "SMM",
-    img: "./public/xizmatlar/smm-illustration.png",
+    img: "/xizmatlar/smm-illustration.png",
     description: "lorem impus",
   },
   {
     name: "Grafik dizayn",
-    img: "../public/xizmatlar/design-illustration.png",
+    img: "./xizmatlar/design-illustration.png",
     description: "lorem impus",
   },
   {
     name: "CRM tizimlar",
-    img: "../public/xizmatlar/crm-illustration.png",
+    img: "./xizmatlar/crm-illustration.png",
     description: "lorem impus",
   },
 ];
-import "../css/blog-xizmtlar.css";
+
 function Xizmatlar() {
   return (
     <section className="xizmatlar">
