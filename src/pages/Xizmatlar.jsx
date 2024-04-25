@@ -3,27 +3,27 @@ import { Link } from "react-router-dom";
 let data = [
   {
     name: "Vebsayt tuzish",
-    img: "/public/images/xizmatlar/website-illustration.png",
+    img: "/public/xizmatlar/website-illustration.png",
     description: "lorem impus",
   },
   {
     name: "Telegram bot",
-    img: "/public/images/xizmatlar/bot-illustration.png",
+    img: "/public/xizmatlar/bot-illustration.png",
     description: "lorem impus",
   },
   {
     name: "SMM",
-    img: "/public/images/xizmatlar/smm-illustration.png",
+    img: "/public/xizmatlar/smm-illustration.png",
     description: "lorem impus",
   },
   {
     name: "Grafik dizayn",
-    img: "/public/images/xizmatlar/design-illustration.png",
+    img: "/public/xizmatlar/design-illustration.png",
     description: "lorem impus",
   },
   {
     name: "CRM tizimlar",
-    img: "/public/images/xizmatlar/crm-illustration.png",
+    img: "/public/xizmatlar/crm-illustration.png",
     description: "lorem impus",
   },
 ];

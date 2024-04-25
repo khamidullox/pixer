@@ -6,7 +6,7 @@ function Novbar() {
       <a href="">
         <img
           className="header__img"
-          src="/public/images/logo-svg.svg"
+          src="/public/logo-svg.svg"
           alt="Pixer"
         />
       </a>
