@@ -13,7 +13,7 @@ let data = [
   },
   {
     name: "SMM",
-    img: "../public/xizmatlar/smm-illustration.png",
+    img: "./public/xizmatlar/smm-illustration.png",
     description: "lorem impus",
   },
   {
