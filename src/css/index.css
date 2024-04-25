@@ -36,14 +36,7 @@ ol {
 a {
   text-decoration: none;
 }
-#root {
-  width: 100%;
-  max-width: 130rem;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
+
 .btn:hover {
   background-color: aliceblue;
   color: #00bafc;

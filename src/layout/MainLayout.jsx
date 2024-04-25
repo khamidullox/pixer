@@ -5,7 +5,6 @@ function MainLayout() {
   return (
     <>
       <Novbar />
-
       <Outlet />
       <Footer />
     </>
